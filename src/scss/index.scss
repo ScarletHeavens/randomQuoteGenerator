@@ -1,0 +1,47 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import './fonts';
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: rgb(131, 1, 1);
+  font-family: 'Montserrat';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+#quote-box {
+  border-radius: 3px;
+  position: relative;
+  width: 600px;
+  padding: 40px 50px;
+  display: table;
+  background-color: #fff;
+  #text {
+    text-align: left;
+    width: 450px;
+    font-size: 30px;
+    margin:5% auto auto auto;
+    height: auto;
+  }
+  #author {
+    float: right;
+    height: auto;
+    padding-top: 20px;
+    font-size: 20px;
+    margin:  auto auto auto 8%;
+    padding-right: 0px;
+  }
+ 
+}
+
+
+
