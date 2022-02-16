@@ -27,7 +27,6 @@ let colors = [
 
 export const GetQuote = () => {
   const random = colors[Math.floor(Math.random() * colors.length)];
-
   const [quote, setQuote] = React.useState(null);
   const [color, setColor] = React.useState('blue');
 
@@ -55,8 +54,9 @@ document.body.style.backgroundColor = random;
 
   if (!quote) return null;
   return (
+  
     <Container fluid id="quote-box"  style={{borderColor: color}} >
-      <Row id="text"  style={{color: color}}><FaQuoteLeft/>{quote.content}</Row>
+      <FaQuoteLeft style ={{color: color}}/><Row id="text"  style={{color: color}}>{quote.content}</Row>
       <Row id="author"  style={{color: color}}>~{quote.author}</Row>
       <div id="new-quote">
          <Button
@@ -70,5 +70,6 @@ document.body.style.backgroundColor = random;
         </div>
 
     </Container>
+   
   );
 };

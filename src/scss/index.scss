@@ -6,39 +6,48 @@
   padding: 0;
   list-style: none;
   vertical-align: baseline;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
 }
 
 body {
-  background-color: rgb(131, 1, 1);
-  font-family: 'Montserrat';
+  font-family: 'Raleway-Bold';
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-
 }
 
 #quote-box {
-  border-radius: 3px;
+  border-radius: 80px;
   position: relative;
   width: 600px;
   padding: 40px 50px;
   display: table;
   background-color: #fff;
+  
   #text {
     text-align: left;
     width: 450px;
     font-size: 30px;
     margin:5% auto auto auto;
     height: auto;
+  
   }
-  #author {
+  #new-quote {
     float: right;
-    height: auto;
-    padding-top: 20px;
-    font-size: 20px;
-    margin:  auto auto auto 8%;
+    padding-top: 5px;
+    margin:  6% 38% auto 8%;
     padding-right: 0px;
+
+  }
+  #author{
+    float:right;
+    margin:  auto auto auto 25%;
+    font-size: 20px;
+    padding-top:20px;
   }
  
 }
