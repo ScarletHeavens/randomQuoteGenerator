@@ -28,7 +28,7 @@ let colors = [
 export const GetQuote = () => {
   const random = colors[Math.floor(Math.random() * colors.length)];
   const [quote, setQuote] = React.useState(null);
-  const [color, setColor] = React.useState('blue');
+  const [color, setColor] = React.useState('');
 
 let newQuote = (quote) => {
 setQuote(quote);
