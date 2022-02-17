@@ -50,7 +50,7 @@ document.body.style.backgroundColor = random;
 
   React.useEffect(() => {
   getQuotes();
-  }, []);
+  },[]);
 
   if (!quote) return null;
   return (
