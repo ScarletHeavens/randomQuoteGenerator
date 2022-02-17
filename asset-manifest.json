@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/randomQuoteGenerator/static/css/main.e0beb328.css",
+    "main.js": "/randomQuoteGenerator/static/js/main.a6f83a26.js",
+    "static/media/Raleway-Bold.ttf": "/randomQuoteGenerator/static/media/Raleway-Bold.d1a96e2aa6257c864d4d.ttf",
+    "index.html": "/randomQuoteGenerator/index.html",
+    "main.e0beb328.css.map": "/randomQuoteGenerator/static/css/main.e0beb328.css.map",
+    "main.a6f83a26.js.map": "/randomQuoteGenerator/static/js/main.a6f83a26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0beb328.css",
+    "static/js/main.a6f83a26.js"
+  ]
+}
